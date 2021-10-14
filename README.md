@@ -8,6 +8,6 @@
 
 #### Despues colocamos el comando jq para procesar los datos en formato JSON en conjunto con la funcion "del()" para eliminar los datos que no son solicitados en el JSON original, que son las key "thumb" y "url_name".
 
-#### Luego utilizamos el simbolo > para redireccionar los datos al archivo "items.json" (el archivo "items.json" se crea al momento de ejecutar el script).
+#### Luego utilizamos el simbolo ">" para redireccionar los datos al archivo "items.json" (el archivo "items.json" se crea al momento de ejecutar el script).
 
 #### Finalmente utilizamos el comando "echo" para mostrar el mensaje "JSON CREADO CON EXITO".
